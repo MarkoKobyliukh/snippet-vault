@@ -22,7 +22,8 @@ export class SnippetsService {
     const filter: Record<string, unknown> = {};
 
     if (q) {
-      filter.$text = { $search: q };
+      const regex = { $regex: q, $options: 'i' };
+      filter.$or = [{ title: regex }, { content: regex }];
     }
 
     if (tag) {
