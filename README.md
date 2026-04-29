@@ -4,6 +4,8 @@
 
 **Стек:** Next.js (App Router) · NestJS · MongoDB (Mongoose) · TypeScript · Tailwind CSS
 
+**Демо:** [snippet-vault-lac.vercel.app](https://snippet-vault-lac.vercel.app) · **API:** [snippet-vault-production-d085.up.railway.app/api/snippets](https://snippet-vault-production-d085.up.railway.app/api/snippets)
+
 ---
 
 ## Початок роботи
